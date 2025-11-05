@@ -1,35 +1,41 @@
 <mxfile host="65bd71144e">
     <diagram id="DDvbAvWUhP83qg7zkVlE" name="Page-1">
-        <mxGraphModel dx="1045" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="874" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="TF / PyTorch / ONNX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                <mxCell id="2" value="TF / PyTorch / ONNX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="220" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Relay&lt;br&gt;(High-Level IR)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="Relay&lt;br&gt;(High-Level IR)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="220" y="130" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="TE&lt;div&gt;(Computation definition)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="4" value="TE&lt;div&gt;(Computation definition)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="240" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="AutoTVM/AutoSchedule&lt;br&gt;(Auto-tuning module)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="AutoTVM/AutoSchedule&lt;br&gt;(Auto-tuning module)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="360" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="TE + Schedule&lt;br&gt;(Optimization specification)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="6" value="TE + Schedule&lt;br&gt;(Optimization specification)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="460" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="TIR&lt;br&gt;(Low-level IR)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="TIR&lt;br&gt;Tensor Level IR&lt;br&gt;(Low-level IR)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="220" y="560" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Machine Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="9" value="Machine Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="220" y="680" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+                <mxCell id="10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
                     <mxGeometry x="160" y="120" width="20" height="500" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="TVM" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                <mxCell id="11" value="TVM" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
                     <mxGeometry x="60" y="350" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="1" source="12" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;code style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); border-radius: 6.4px; font-family: Menlo, Consolas, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, monospace; font-size: 16px; vertical-align: inherit; border: none; color: rgb(204, 153, 51); text-align: start;&quot;&gt;MetaSchedule&lt;/code&gt;&lt;span style=&quot;color: rgb(8, 9, 48); font-family: sofia-pro, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="560" width="130" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
