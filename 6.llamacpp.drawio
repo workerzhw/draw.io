@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="AcmHeoughOFUFmEpeuEZ" name="Page-1">
-        <mxGraphModel dx="829" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1782" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -127,6 +127,9 @@
                 </mxCell>
                 <mxCell id="39" value="&lt;span style=&quot;color: rgb(25, 27, 31); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;MiSans L3&amp;quot;, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;在图中，分为两种类型的元素： node（白）和leaf（红）。一切即不是参数（weight）也不是操作数（即tensor结构体中的op为None）的元素称之为leaf，其余都作为node。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="20" y="1310" width="560" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;ul&gt;&lt;li&gt;Value 1&lt;/li&gt;&lt;li&gt;Value 2&lt;/li&gt;&lt;li&gt;Value 3&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+                    <mxGeometry x="850" y="1230" width="100" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
